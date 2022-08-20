@@ -1,0 +1,40 @@
+html {
+    
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: white;
+}
+
+.logo-link {
+    font: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.header {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.link a{
+    color: #212121;
+}
+
+.link:hover a{
+    color: #2196F3;
+}
+
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
