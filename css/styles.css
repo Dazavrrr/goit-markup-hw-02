@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Raleway', 'Sans-Serif';
   background-color: white;
 }
 
@@ -41,7 +41,7 @@ li {
 }
 
 /*Header*/
-.main-section {
+.hero {
   background-color: #2f303a;
   color: #ffffff;
   position: absolute;
@@ -51,7 +51,7 @@ li {
   top: 200px;
 }
 
-.title {
+.hero-title {
   position: absolute;
   font-weight: 900;
   font-size: 44px;
@@ -76,6 +76,11 @@ li {
   height: 50px;
   left: 640px;
   top: 400px;
+}
+
+.btn,
+.button {
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -113,7 +118,6 @@ li {
 }
 
 .main-list-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -208,12 +212,52 @@ li {
   color: #ffffff;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
 
 .address-map:hover a {
-  color: #2196F3;
+  color: #2196f3;
+}
+
+/*Portfolio*/
+.main-portfolio {
+  background-color: #f5f5f5;
+}
+
+/*Buttons*/
+.button {
+  background-color: #eeeeee;
+  color: #000000;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-footer {
+  position: absolute;
+  width: 1600px;
+  left: 0px;
+  top: 4125px;
+  background-color: #2f303a;
+}
+
+.project-description {
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
