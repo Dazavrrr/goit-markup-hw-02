@@ -44,6 +44,7 @@ li {
 }
 
 .address a {
+  font-family: 'Roboto';
   font-style: normal;
   color: var(--primary-text-color);
   text-decoration: none;
