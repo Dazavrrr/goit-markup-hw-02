@@ -12,8 +12,11 @@
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', 'Sans-Serif', 'Inherit';
+  font-family: 'Roboto', 'Raleway', 'sans-serif';
   background-color: var(--main-background-color);
+  font-size: 14px;
+  letter-spacing: 0.03;
+  color: var(--primary-text-color);
 }
 
 li {
@@ -37,6 +40,10 @@ li {
 .link a {
   color: var(--link-color);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 .link:hover a {
@@ -44,10 +51,13 @@ li {
 }
 
 .address a {
-  font-family: 'Roboto';
   font-style: normal;
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .address:hover a {
@@ -57,10 +67,10 @@ li {
 /*Header*/
 .hero {
   background-color: var(--hero-background-color);
-  color: var(--title-text-color);
 }
 
 .hero-title {
+  color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -76,12 +86,13 @@ li {
   font-size: 16px;
   letter-spacing: 0.06em;
   font-weight: 700;
+  line-height: 1.8;
 }
 
 .btn,
 .button {
   cursor: pointer;
-  font-family: 'Inherit';
+  font-family: inherit;
 }
 
 .btn:hover,
@@ -109,6 +120,7 @@ li {
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--link-color);
 }
 
 .main-list-text {
@@ -133,14 +145,27 @@ li {
 }
 
 .team-title {
+  color: var(--link-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 2.6;
   letter-spacing: 0.03em;
 }
 
+.team-member {
+  color: var(--link-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
 .team-member-description {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /*Footer*/
@@ -173,17 +198,14 @@ li {
   color: var(--accent-color);
 }
 
-/*Portfolio*/
-.main-portfolio {
-  background-color: var(--main-background-color);
-}
-
 /*Buttons*/
 .button {
   background-color: var(--team-background-color);
   color: var(--logo-color);
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -192,12 +214,12 @@ li {
   color: var(--title-text-color);
 }
 
-.portfolio-footer {
-  position: absolute;
-  width: 1600px;
-  left: 0px;
-  top: 4125px;
-  background-color: var(--hero-background-color);
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.2;
+  letter-spacing: 0.06em;
+  color: var(--link-color);
 }
 
 .project-description {
@@ -205,11 +227,4 @@ li {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-}
-
-.project-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2.2;
-  letter-spacing: 0.06em;
 }
